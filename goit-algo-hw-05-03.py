@@ -76,9 +76,9 @@ def rabin_karp(text, pattern):
             text_hash = hash_func(text[i + 1:i + m + 1])
     return -1
 
-# Ваші підрядки для пошуку
-existing_pattern = "ваш_існуючий_підрядок"
-non_existing_pattern = "ваш_неіснуючий_підрядок"
+# Підрядки для пошуку
+existing_pattern = "існуючий_підрядок"
+non_existing_pattern = "неіснуючий_підрядок"
 
 # Читаємо файли з кодуванням CP1251
 with open(output1, 'r', encoding='cp1251') as file:
